@@ -1,3 +1,3 @@
-import { v5 as uuidv5 } from 'uuid';
-
-export const foo = (x: string, y: string) => uuidv5(x, y)
+export { v4 } from 'uuid';
+import type { IStringBuilder } from '@microsoft/tsdoc';
+export type Foo = IStringBuilder
